@@ -290,3 +290,18 @@ If you use this dataset, please cite the original model:
   url    = {https://huggingface.co/tencent/HY-MT1.5-1.8B}
 }
 ```
+
+# HY-MT1.5-1.8B Blindspots Dataset
+
+Dataset hosted on Hugging Face:
+https://huggingface.co/datasets/Jesujuwon/HY-MT1.5-1.8B-blindspots
+
+## Description
+This dataset explores blindspots in the HY-MT1.5-1.8B model.
+
+## Usage
+
+```python
+from datasets import load_dataset
+
+dataset = load_dataset("Jesujuwon/HY-MT1.5-1.8B-blindspots")
